@@ -14,7 +14,7 @@ npm run start
 npx json-server -p 4000 api.json
 ```
 
-This will cause the backend server to be active. 
+This will cause the backend server to be active. And... you know what is left to do. 
 
 ## What endponts are available 
 
