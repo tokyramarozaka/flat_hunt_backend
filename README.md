@@ -24,8 +24,11 @@ Retrieve a list of all available apartments.
 ### 2. **GET /apartments/:id**
 Retrieve a given apatement using its id
 
-### 3. **GET /apartements?price_lte=...
+### 3. **GET /apartements?price_lte=...**
 GET /apartments?price_lte=1500 will get all apartments whose price is less than or equal to 1500.
 
-### 4. **GET /apartements?price_gte=...
+### 4. **GET /apartements?price_gte=...**
 GET /apartments?price_gte=1500 will get all apartments whose price is greater than or equal to 1500
+
+### 5. **GET /apartements?field_like=...**
+GET /apartments?description_like=cozy will retrieve all items whose descrption contains the given request parameter.
