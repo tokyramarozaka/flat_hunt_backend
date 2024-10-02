@@ -1,0 +1,15 @@
+{
+  "name": "flat_hunting_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx json-server -p 4000 api.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
